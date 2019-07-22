@@ -3,3 +3,10 @@ https://morosedog.gitlab.io/j.j.blogs/2019/03/23/docker-20190323-docker1/
 
 # Docker tutorial - simple version
 https://blog.csdn.net/dongdong9223/article/details/52998375
+
+
+# Docker put the files inside the comtainer
+docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash
+ps. -v :volume (storage)
+ps. source directory : des directory
+

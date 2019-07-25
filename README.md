@@ -21,3 +21,7 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
 
 
 use custom dataset to train in digits
+
+
+
+#ssh and scp

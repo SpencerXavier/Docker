@@ -14,5 +14,10 @@ ps. source directory : des directory
 # wildfire
 -how to use DIGITS and run on jeston nano
 https://github.com/dusty-nv/jetson-inference
+ps. download and extract the trained model snapshot to Jetson (snapshot is in job)
+NET = sanpshot folder
+segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --output_blob=score_fr
+
+
 
 use custom dataset to train in digits

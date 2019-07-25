@@ -10,3 +10,9 @@ docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 
 ps. -v :volume (storage)
 ps. source directory : des directory
 
+
+# wildfire
+-how to use DIGITS and run on jeston nano
+https://github.com/dusty-nv/jetson-inference
+
+use custom dataset to train in digits

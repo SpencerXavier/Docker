@@ -24,4 +24,5 @@ use custom dataset to train in digits
 
 
 
-#ssh and scp
+# linux
+http://www.polish.url.tw/ach4/ach4.html#sed_adv

@@ -20,7 +20,7 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
 
 
 
-use custom dataset to train in digits
+use custom dataset to train models in digits (you can also test inference on digits)
 
 
 

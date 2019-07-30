@@ -1,14 +1,27 @@
 # Docker tutorial
 https://github.com/twtrubiks/docker-tutorial
 
-# Docker tutorial - simple version
+# Docker tutorial - basic command
 https://blog.csdn.net/dongdong9223/article/details/52998375
+http://seanlook.com/2014/10/31/docker-command-best-use-1/
+http://seanlook.com/2014/11/05/docker-command-best-use-2/
 
 
 # Docker put the files inside the comtainer
 docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash
 ps. -v :volume (storage)
 ps. source directory : des directory
+
+
+
+
+
+
+
+
+
+
+
 
 
 # wildfire

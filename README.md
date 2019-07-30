@@ -1,5 +1,8 @@
 # Docker tutorial - basic command
-- go inside the container : docker exec -it container_name bash
+
+- container:
+-------------
+go inside the container : docker exec -it container_name bash
 
 
 

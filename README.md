@@ -2,8 +2,12 @@
 
 - container:
 -------------
+- docker run -it -d image_name bash
 - go inside the container : docker exec -it container_name bash
 - docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash
+
+
+ps. -d for background , so container won't die
 ps. -v :volume (storage)
 ps. source directory : des directory
 

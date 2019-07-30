@@ -1,3 +1,19 @@
+# Docker tutorial - basic command
+- go inside the container : docker exec -it container_name bash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Docker tutorial
 https://github.com/twtrubiks/docker-tutorial
 

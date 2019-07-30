@@ -27,24 +27,5 @@ https://www.jinnsblog.com/2018/10/docker-container-command.html
 
 
 
-
-
-
-
-
-
-# wildfire
--how to use DIGITS and run on jeston nano(you can test your own data )
-https://github.com/dusty-nv/jetson-inference
-ps. download and extract the trained model snapshot to Jetson (snapshot is in job)
-NET = snapshot folder , png = your own data
-segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --output_blob=score_fr
-
-
-
-use custom dataset to train models in digits (you can also test inference on digits)
-
-
-
 # linux
 http://www.polish.url.tw/ach4/ach4.html#sed_adv

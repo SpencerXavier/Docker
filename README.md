@@ -3,7 +3,7 @@
 - container:
 -------------
 - docker run -it -d image_name bash
-- go inside the container : docker exec -it container_name bash
+- go inside the container : docker exec -it container_name bash (so the container won't ends)
 - docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash
 
 

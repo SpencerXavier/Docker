@@ -31,3 +31,6 @@ https://www.jinnsblog.com/2018/10/docker-container-command.html
 http://www.polish.url.tw/ach4/ach4.html#sed_adv
 
 # use gitlab to run docker 
+edit the dockerfile 
+follow the registry
+docker run -it -d gitlab-registry.nautilus.optiputer.net/ar-noc/keras-smoke-detection:tag

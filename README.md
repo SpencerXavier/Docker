@@ -2,7 +2,7 @@
 
 - container:
 -------------
-- docker run -it -d image_name bash
+- docker run -it -d(background) -p  8888:8888 image:version bash  
 - go inside the container : docker exec -it container_name bash (so the container won't ends)
 - docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash
 - share the file from container to host :docker cp mycontainer:/Project/userfiles.txt userfiles.txt
@@ -10,6 +10,8 @@
 ps. -d for background , so container won't die
 ps. -v :volume (storage)
 ps. source directory : des directory
+
+
 
 
 

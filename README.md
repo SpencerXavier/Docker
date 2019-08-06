@@ -22,7 +22,7 @@ ps. source directory : des directory
 https://github.com/twtrubiks/docker-tutorial
 
 # Docker tutorial - basic command
-https://medium.com/@jihung.mycena/docker-建立-jupyter-container-8084748e2f33
+https://mileslin.github.io/2019/04/Docker-指令小抄/
 https://blog.csdn.net/dongdong9223/article/details/52998375
 http://seanlook.com/2014/10/31/docker-command-best-use-1/
 http://seanlook.com/2014/11/05/docker-command-best-use-2/

@@ -8,6 +8,9 @@
 - share the file from container to host :  docker cp mycontainer:/Project/userfiles.txt userfiles.txt
 
 
+docker建立jupyter notebook: https://medium.com/@jihung.mycena/docker-建立-jupyter-container-8084748e2f33
+
+
 
 ps. -d for background , so container won't die
 ps. -v :volume (storage)

@@ -9,8 +9,8 @@
 
 -------------
 - docker建立jupyter notebook: 
-1. Host machine : docker run -it -d -p 8888:8888 tensorflow/tensorflow:nightly-py3-jupyter
-2. Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root (or use jupyter notebook --port 9999)
+1. Host machine : docker run -it -d -p 8888:8888 tensorflow/tensorflow:latest-py3 (再去灌tensorflow2.0.0)
+2. Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 3. Host machine access this url : http://127.0.0.1:8888/?token=... (paste the token,use jupyter list)
 4. jupyternotebook 常用指令:
 https://www.itread01.com/content/1548302963.html

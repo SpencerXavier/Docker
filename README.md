@@ -16,12 +16,6 @@
 https://www.itread01.com/content/1548302963.html
 https://ithelp.ithome.com.tw/articles/10192614
  
-
-
-
-
-
-
 ps. -d for background , so container won't die
 ps. -v :volume (storage)
 ps. source directory : des directory

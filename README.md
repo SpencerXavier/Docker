@@ -20,9 +20,13 @@ ps. -d for background , so container won't die
 ps. -v :volume (storage)
 ps. source directory : des directory
 ps. -p 8888(host machine port,可自訂):8888(jupyternotebook default sever, web port)
-ps. --no-browser 不要有網頁顯示出來
-ps. IPV4中，0.0.0.0地址被用于表示一个无效的，未知的或者不可用的目标。 
-* 在服务器中，0.0.0.0指的是本机上的所有IPV4地址，如果一个主机有两个IP地址，192.168.1.1 和 10.1.2.1，并且该主机上的一个服务监听的地址是0.0.0.0,那么通过两个ip地址都能够访问该服务
+ps. --no-browser 不要有網頁顯示出來 --allow-root 你在root 執行必須要用這個flag
+ps. --ip=<Unicode>  預設是: 'localhost'，從前面的現實中也可以看出來，表示的是notebook伺服器會監聽的IP地址，我們也可以手動指定
+
+
+ps. 在服务器中，0.0.0.0指的是本机上的所有IPV4地址(外面看裡面本機的ip)，127.0.0.1是(裡面看外面本機主機的ip)
+ps. 0.0.0.0：指的是本机上的所有IPV4地址(外面看裡面時本機的ip)，这发生在主機启动时但又不知道自己的IP地址情况下。如果一个主机有两个IP地址，192.168.1.1 和 10.1.2.1，并且该主机上的一个服务监听的地址是0.0.0.0,那么通过两个ip地址都能够访问该服务
+ps. 127.0.0.1：该地址指电脑本身(裡面傳給外面時本機的ip)，主要预留测试本机的TCP/IP协议是否正常。只要使用这个地址发送数据，则数据包不会出现在网络传输过程中。
 
 
 # Docker tutorial

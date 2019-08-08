@@ -19,7 +19,7 @@ https://ithelp.ithome.com.tw/articles/10192614
 ps. -d for background , so container won't die
 ps. -v :volume (storage)
 ps. source directory : des directory
-ps. -p 8888(host machine port,可自訂):8888(jupyternotebook default)
+ps. -p 8888(host machine port,可自訂):8888(jupyternotebook default sever, web port)
 ps. --no-browser 不要有網頁顯示出來
 ps. IPV4中，0.0.0.0地址被用于表示一个无效的，未知的或者不可用的目标。 
 * 在服务器中，0.0.0.0指的是本机上的所有IPV4地址，如果一个主机有两个IP地址，192.168.1.1 和 10.1.2.1，并且该主机上的一个服务监听的地址是0.0.0.0,那么通过两个ip地址都能够访问该服务

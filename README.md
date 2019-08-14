@@ -60,7 +60,8 @@ docker run -it -d gitlab-registry.nautilus.optiputer.net/ar-noc/keras-smoke-dete
 
 
 
-
+..上ㄧ業
+./目前這頁的folder
 
 
 

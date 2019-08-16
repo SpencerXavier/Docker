@@ -64,7 +64,9 @@ docker run -it -d gitlab-registry.nautilus.optiputer.net/ar-noc/keras-smoke-dete
 ./目前這頁的folder
 
 
-
+1.git init to create .git folder
+2.git clone
+3.
 
 
 

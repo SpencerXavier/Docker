@@ -7,6 +7,14 @@
 3. docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash
 4. share the file from container to host :  docker cp mycontainer:/Project/userfiles.txt userfiles.txt
 
+
+1、宿主机文件到容器：docker cp 当前宿主机的文件 容器ID:容器目录：
+
+docker cp jdk-8u144-linux-x64.tar.gz testUbuntu:/home/kanpiaoxue/develop/jdk/
+
+文件从容器到宿主机： docker cp 容器:容器目录 当前宿主机的文件
+
+
 -------------
 - docker建立jupyter notebook: 
 1. Host machine : docker run -it -d -p 8888:8888 tensorflow/tensorflow:latest-py3 (再去灌tensorflow2.0.0)

@@ -10,11 +10,10 @@
 
 1、宿主机文件到容器：docker cp 当前宿主机的文件 容器ID:容器目录：
 
-docker cp jdk-8u144-linux-x64.tar.gz testUbuntu:/home/kanpiaoxue/develop/jdk/
-
+docker cp /host/path/target  <containerId>:/file/path/within/container 
 文件从容器到宿主机： docker cp 容器:容器目录 当前宿主机的文件
 
-
+docker cp <containerId>:/file/path/within/container /host/path/target
 -------------
 - docker建立jupyter notebook: 
 1. Host machine : docker run -it -d -p 8888:8888 tensorflow/tensorflow:latest-py3 (再去灌tensorflow2.0.0)

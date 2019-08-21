@@ -12,6 +12,8 @@
 
 docker cp /host/path/target  <containerId>:/file/path/within/container 
 文件从容器到宿主机： docker cp 容器:容器目录 当前宿主机的文件
+ 
+ 
 docker cp <containerId>:/file/path/within/container /host/path/target
 -------------
 - docker建立jupyter notebook: 

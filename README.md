@@ -5,13 +5,14 @@
 1. docker run -it -d(background) image:version bash  
 2. go inside the container : docker exec -it container_name bash (so the container won't ends)
 3. docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash
-4. share the file from container to host :  docker cp mycontainer:/Project/userfiles.txt userfiles.txt
+4. share the file from container to host :  docker cp mycontainerID:/Project/userfiles.txt userfiles.txt
 
 
 1、宿主机文件到容器：docker cp 当前宿主机的文件 容器ID:容器目录：
 
 docker cp /host/path/target  <containerId>:/file/path/within/container 
-文件从容器到宿主机： docker cp 容器:容器目录 当前宿主机的文件
+ 
+2、文件从容器到宿主机： docker cp 容器:容器目录 当前宿主机的文件
  
  
 docker cp <containerId>:/file/path/within/container /host/path/target

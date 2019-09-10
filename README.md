@@ -77,7 +77,7 @@ docker run -it -d gitlab-registry.nautilus.optiputer.net/ar-noc/keras-smoke-dete
 
 
 
-
+創kubernetes+github教學
 
 
 

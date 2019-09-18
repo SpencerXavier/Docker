@@ -1,10 +1,12 @@
 # Docker tutorial - basic command
 - step for normal use:
+
 1.pull the image from dockerhub : docker pull images_name
 2.run the container : docker run -it -d(background) image:version bash  
 3.go inside the container : docker exec -it container_name bash (so the container won't ends)
 
 -- docker建立jupyter notebook: 
+
 1. Host machine run the container: docker run -it -d -p 8888:8888 tensorflow/tensorflow:latest-py3 
 2. Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 3. Host machine access this url : http://127.0.0.1:8888/?token=... (paste the token,use jupyter list)(記得用完log out 不要quit)
@@ -17,26 +19,9 @@ ps. 0.0.0.0：指的是本机上的所有IPV4地址(外面看裡面時本機的i
 ps. -p 8888(host machine port,可自訂):8888(jupyternotebook default sever, web port)
 ps. --no-browser 不要有網頁顯示出來 --allow-root 你在root 執行必須要用這個flag
 ps. --ip=<Unicode>  預設是: 'localhost'，從前面的現實中也可以看出來，表示的是notebook伺服器會監聽的IP地址，我們也可以手動指定
- 
+ps.token進不去：記得改jupyternotebook 對應的ip
  
 - dokcer 常用指令
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - container:
 -------------
 3. docker run -it -v /Users/spencer/Desktop/OpenCV/:/OpenCV yoanlin/opencv-python3 bash

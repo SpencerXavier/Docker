@@ -8,7 +8,7 @@
 -- docker建立jupyter notebook: 
 
 1. Host machine run the container: docker run -it -d -p 8888:8888 tensorflow/tensorflow:latest-py3 
-2. Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+2. Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root (第二次就用jupyter notebook list進去)
 3. Host machine access this url : http://127.0.0.1:8888/?token=... (paste the token,use jupyter list)(記得用完log out 不要quit)
 4. jupyternotebook 常用指令:(use jupyter notebook list)
 
